@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML etiquetas</title>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<!-- Aqui termina el encabezado -->
+
+<body>
+<!-- Aqui comienza el cuerpo de la pagina -->
+<marquee direction="left">HOLA A TODOOOOOS WUJUUUU ARRIBA EL NORTE CHINGAOOO esto lo hice con <code>&lt;marquee&gt;</code></marquee>
+<h1>Hola a todos soy un h1</h1>
+
+<p>!Bienvenido a nuestra pagina esto es un parrafo con la <strong>etiqueta P</strong></p>
+
+<h2>Hola a todos soy un h2</h2>
+<h3>Hola a todos soy un h3</h3>
+<h4>Hola a todos soy un h4</h4>
+<h5>Hola a todos soy un h5</h5>
+
+<h2>Enlaces</h2>
+<p>Visita mi nuevo sitio web
+<a href="pagina2.html">Entra YA</a>
+</p>
+
+<h2>Listas</h2>
+<h3>Listas Ordenadas</h3>
+
+<ol>
+	<li>Elemento 1</li>
+	<li>Elemento 2</li>
+	<li>Elemento 3</li>
+</ol>
+
+<h2>Listas</h2>
+<h3>Listas Desordenadas</h3>
+
+<ul>
+	<li>Elemento A</li>
+	<li>Elemento B</li>
+	<li>Elemento C</li>
+</ul>
+
+<h2>Imagenes en html</h2>
+<p>Una imagen Generica (Pongan la que ustedes quieran)</p>
+<img src="https://via.placeholder.com/150" alt="Texto por si no hay imagen">
+
+<h2>Formularios</h2>
+<form>
+	<label>Nombre:</label><br>
+	<input type="text"><br><br>
+	<label>Contraseña:</label><br>
+	<input type="password" name="">
+	<input type="submit" value="boton de input">
+	<button><img src="send-message.png" height="20px"></button>
+	<button>Boton tag Button</button>
+</form>
+<main>
+<h2>Fecha Actual</h2>
+<?php
+date_default_timezone_set("America/New_York");
+echo "La fecha actual es: " . date("Y-m-d H:i:s");
+
+?>
+
+</body>
+</html>
